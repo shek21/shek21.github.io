@@ -343,7 +343,7 @@ origPkg &lt;- getDataPackage(d1c, identifier = &quot;urn:uuid:5cfda337-4d6b-49a1
 <pre><code>## Installing arcticdatautils</code></pre>
 <pre><code>## '/Library/Frameworks/R.framework/Resources/bin/R' --no-site-file  \
 ##   --no-environ --no-save --no-restore --quiet CMD INSTALL  \
-##   '/private/var/folders/7t/xdmtt00j0w53slb206w9xh100000gn/T/RtmpIrGxuS/devtoolse2195259d873/NCEAS-arcticdatautils-ed26220'  \
+##   '/private/var/folders/7t/xdmtt00j0w53slb206w9xh100000gn/T/RtmpktlxpP/devtoolse68f602b6435/NCEAS-arcticdatautils-ed26220'  \
 ##   --library='/Library/Frameworks/R.framework/Versions/3.3/Resources/library'  \
 ##   --install-tests</code></pre>
 <pre><code>## </code></pre>
@@ -368,10 +368,10 @@ print(dp)</code></pre>
 <pre><code>## Members:
 ## 
 ## filename        format    mediaType  size     identifier    modified local 
-## meta.xml        eml...1.1 NA         1789     urn:u...aeaeb n        y     
-## new_mt..._g.png image/png NA         79800    urn:u...5f068 n        y     
-## new_mt...ed.csv text/csv  NA         5401     urn:u...74c5d n        y     
-## new_analysis.R  app...eam NA         376      urn:u...aa940 n        y     
+## new_mt..._g.png image/png NA         79800    urn:u...6fb64 n        y     
+## meta.xml        eml...1.1 NA         1789     urn:u...11bdb n        y     
+## new_mt...ed.csv text/csv  NA         5401     urn:u...9591c n        y     
+## new_analysis.R  app...eam NA         376      urn:u...ba0ab n        y     
 ## 
 ## Package identifier: NA
 ## RightsHolder: NA
@@ -401,7 +401,7 @@ eml_validate(&quot;./meta.xml&quot;)</code></pre>
 ## attr(,&quot;errors&quot;)
 ## character(0)</code></pre>
 <pre class="r"><code>print(eml)</code></pre>
-<pre><code>## &lt;eml packageId=&quot;a9363579-567a-4d57-8315-0651e598207d&quot; system=&quot;uuid&quot; xsi:schemaLocation=&quot;eml://ecoinformatics.org/eml-2.1.1 eml.xsd&quot;&gt;
+<pre><code>## &lt;eml packageId=&quot;33d7bfbd-833a-4c35-abae-fa84efbcb16d&quot; system=&quot;uuid&quot; xsi:schemaLocation=&quot;eml://ecoinformatics.org/eml-2.1.1 eml.xsd&quot;&gt;
 ##   &lt;dataset&gt;
 ##     &lt;title&gt;test storing provenance into resmap&lt;/title&gt;
 ##     &lt;creator&gt;
@@ -443,7 +443,7 @@ eml_validate(&quot;./meta.xml&quot;)</code></pre>
 ##       &lt;phone&gt;000-000-0000&lt;/phone&gt;
 ##       &lt;electronicMailAddress&gt;slee195@hawk.iit.edu&lt;/electronicMailAddress&gt;
 ##     &lt;/contact&gt;
-##     &lt;otherEntity id=&quot;urn:uuid:bc7e6913-821f-47cc-a498-d29554faa940&quot; scope=&quot;document&quot;&gt;
+##     &lt;otherEntity id=&quot;urn:uuid:d2ae152b-c9ae-4b10-af65-eeb4ac8ba0ab&quot; scope=&quot;document&quot;&gt;
 ##       &lt;entityName&gt;new_analysis.R&lt;/entityName&gt;
 ##       &lt;physical scope=&quot;document&quot;&gt;
 ##         &lt;objectName&gt;new_analysis.R&lt;/objectName&gt;
@@ -456,13 +456,13 @@ eml_validate(&quot;./meta.xml&quot;)</code></pre>
 ##         &lt;/dataFormat&gt;
 ##         &lt;distribution scope=&quot;document&quot;&gt;
 ##           &lt;online&gt;
-##             &lt;url function=&quot;download&quot;&gt;https://cn.dataone.org/cn/v2/resolve/urn:uuid:bc7e6913-821f-47cc-a498-d29554faa940&lt;/url&gt;
+##             &lt;url function=&quot;download&quot;&gt;https://cn.dataone.org/cn/v2/resolve/urn:uuid:d2ae152b-c9ae-4b10-af65-eeb4ac8ba0ab&lt;/url&gt;
 ##           &lt;/online&gt;
 ##         &lt;/distribution&gt;
 ##       &lt;/physical&gt;
 ##       &lt;entityType&gt;Other&lt;/entityType&gt;
 ##     &lt;/otherEntity&gt;
-##     &lt;otherEntity id=&quot;urn:uuid:17f02c93-e254-4d58-b2a0-bbe26615f068&quot; scope=&quot;document&quot;&gt;
+##     &lt;otherEntity id=&quot;urn:uuid:a48337d0-380f-4d7c-84ef-1d32ed86fb64&quot; scope=&quot;document&quot;&gt;
 ##       &lt;entityName&gt;new_mtcars_g.png&lt;/entityName&gt;
 ##       &lt;physical scope=&quot;document&quot;&gt;
 ##         &lt;objectName&gt;new_mtcars_g.png&lt;/objectName&gt;
@@ -475,13 +475,13 @@ eml_validate(&quot;./meta.xml&quot;)</code></pre>
 ##         &lt;/dataFormat&gt;
 ##         &lt;distribution scope=&quot;document&quot;&gt;
 ##           &lt;online&gt;
-##             &lt;url function=&quot;download&quot;&gt;https://cn.dataone.org/cn/v2/resolve/urn:uuid:17f02c93-e254-4d58-b2a0-bbe26615f068&lt;/url&gt;
+##             &lt;url function=&quot;download&quot;&gt;https://cn.dataone.org/cn/v2/resolve/urn:uuid:a48337d0-380f-4d7c-84ef-1d32ed86fb64&lt;/url&gt;
 ##           &lt;/online&gt;
 ##         &lt;/distribution&gt;
 ##       &lt;/physical&gt;
 ##       &lt;entityType&gt;Other&lt;/entityType&gt;
 ##     &lt;/otherEntity&gt;
-##     &lt;otherEntity id=&quot;urn:uuid:aa8c7a60-d086-4608-8d16-397ee9074c5d&quot; scope=&quot;document&quot;&gt;
+##     &lt;otherEntity id=&quot;urn:uuid:b2f3e239-8ecf-45ca-afce-ba663c29591c&quot; scope=&quot;document&quot;&gt;
 ##       &lt;entityName&gt;new_mtcars_gathered.csv&lt;/entityName&gt;
 ##       &lt;physical scope=&quot;document&quot;&gt;
 ##         &lt;objectName&gt;new_mtcars_gathered.csv&lt;/objectName&gt;
@@ -494,7 +494,7 @@ eml_validate(&quot;./meta.xml&quot;)</code></pre>
 ##         &lt;/dataFormat&gt;
 ##         &lt;distribution scope=&quot;document&quot;&gt;
 ##           &lt;online&gt;
-##             &lt;url function=&quot;download&quot;&gt;https://cn.dataone.org/cn/v2/resolve/urn:uuid:aa8c7a60-d086-4608-8d16-397ee9074c5d&lt;/url&gt;
+##             &lt;url function=&quot;download&quot;&gt;https://cn.dataone.org/cn/v2/resolve/urn:uuid:b2f3e239-8ecf-45ca-afce-ba663c29591c&lt;/url&gt;
 ##           &lt;/online&gt;
 ##         &lt;/distribution&gt;
 ##       &lt;/physical&gt;
@@ -508,10 +508,10 @@ print(dp)</code></pre>
 <pre><code>## Members:
 ## 
 ## filename        format    mediaType  size     identifier    modified local 
-## meta.xml        eml...1.1 NA         4273     urn:u...aeaeb y        y     
-## new_mt..._g.png image/png NA         79800    urn:u...5f068 n        y     
-## new_mt...ed.csv text/csv  NA         5401     urn:u...74c5d n        y     
-## new_analysis.R  app...eam NA         376      urn:u...aa940 n        y     
+## new_mt..._g.png image/png NA         79800    urn:u...6fb64 n        y     
+## meta.xml        eml...1.1 NA         4273     urn:u...11bdb y        y     
+## new_mt...ed.csv text/csv  NA         5401     urn:u...9591c n        y     
+## new_analysis.R  app...eam NA         376      urn:u...ba0ab n        y     
 ## 
 ## Package identifier: NA
 ## RightsHolder: NA
@@ -539,7 +539,7 @@ print(dp)</code></pre>
 <pre><code>## Installing recordr</code></pre>
 <pre><code>## '/Library/Frameworks/R.framework/Resources/bin/R' --no-site-file  \
 ##   --no-environ --no-save --no-restore --quiet CMD INSTALL  \
-##   '/private/var/folders/7t/xdmtt00j0w53slb206w9xh100000gn/T/RtmpIrGxuS/devtoolse2193fe27eb6/NCEAS-recordr-553ca40'  \
+##   '/private/var/folders/7t/xdmtt00j0w53slb206w9xh100000gn/T/RtmpktlxpP/devtoolse68f795eed63/NCEAS-recordr-553ca40'  \
 ##   --library='/Library/Frameworks/R.framework/Versions/3.3/Resources/library'  \
 ##   --install-tests</code></pre>
 <pre><code>## </code></pre>
@@ -547,7 +547,7 @@ print(dp)</code></pre>
 rc &lt;- new(&quot;Recordr&quot;)</code></pre>
 <pre><code>## A new recordr home directory has been created at:
 ## 
-##  /var/folders/7t/xdmtt00j0w53slb206w9xh100000gn/T//RtmpIrGxuS/recordr</code></pre>
+##  /var/folders/7t/xdmtt00j0w53slb206w9xh100000gn/T//RtmpktlxpP/recordr</code></pre>
 <pre><code>## The recordr package will save run information to this directory, which is under</code></pre>
 <pre><code>## the R session temporary directory. Therefore the information that recordr collects</code></pre>
 <pre><code>## will be removed by R when the current R session ends.</code></pre>
@@ -578,7 +578,9 @@ if(length(progFiles) &gt; 0) {
       sids &lt;- c(sids, sid)
       
       # add a connection to Alice's package as a relationship into Bob's package
-      sids &lt;- c(sids, origPkg@resmapId)
+      if(!is.element(origPkg@resmapId, sids)) {
+        sids &lt;- c(sids, origPkg@resmapId) 
+      }
       sids &lt;- c(sids, as.character(vrUsed$names[n]))
     }
     
@@ -613,7 +615,7 @@ if(length(progFiles) &gt; 0) {
 ##     extract</code></pre>
 <pre><code>## [details]: Run details
 ## ----------------------
-## &quot;/Users/eunjungpark/Documents/data...ct1/fullProv/bobPkg/new_analysis.R&quot; was executed on 2018-07-13 10:18:12 CDT
+## &quot;/Users/eunjungpark/Documents/data...ct1/fullProv/bobPkg/new_analysis.R&quot; was executed on 2018-07-13 11:21:38 CDT
 ## Tag: &quot;new_analysis.R&quot;
 ## Run sequence #: 1
 ## Publish date: Not published
@@ -622,14 +624,14 @@ if(length(progFiles) &gt; 0) {
 ## View at: NA
 ## Run by user: eunjungpark
 ## Account subject: NA
-## Run Id: urn:uuid:ac49a0f0-2bb0-4388-a480-17fcc471944b
-## Data package Id: urn:uuid:9cc900b9-2f7f-457f-a60f-975792110319
+## Run Id: urn:uuid:d3ed41ad-5134-4cd2-a256-565e9839d1d7
+## Data package Id: urn:uuid:2699343a-be86-4aa6-8304-93ab4d0c0b23
 ## HostId: eunjeong-bag-ui-MacBook-Pro.local
 ## Operating system: x86_64-apple-darwin13.4.0
 ## R version: R version 3.3.3 (2017-03-06)
 ## Dependencies: stats, graphics, grDevices, utils, datasets, methods, base, Rcpp_0.12.17, git2r_0.21.0, plyr_1.8.4, base64enc_0.1-3, tools_3.3.3, digest_0.6.15, uuid_0.1-2, bit_1.1-14, jsonlite_1.5, evaluate_0.10.1, memoise_1.1.0, RSQLite_2.0, pkgconfig_2.0.1, DBI_1.0.0, commonmark_1.5, curl_3.2, yaml_2.1.16, withr_2.1.2, httr_1.3.1, stringr_1.2.0, roxygen2_6.0.1, xml2_1.2.0, knitr_1.18, devtools_1.13.6, rappdirs_0.3.1, rprojroot_1.3-2, bit64_0.9-7, redland_1.0.17-9, parsedate_1.1.3, R6_2.2.2, hash_2.2.6, XML_3.98-1.9, rmarkdown_1.10, blob_1.1.1, magrittr_1.5, backports_1.1.2, htmltools_0.3.6, stringi_1.2.3, openssl_1.0.1, recordr_1.0.3.9000, arcticdatautils_0.6.4, EML_1.0.3, datapack_1.3.1, dataone_2.1.1
-## Run start time: 2018-07-13 10:18:12 CDT
-## Run end time: 2018-07-13 10:18:18 CDT
+## Run start time: 2018-07-13 11:21:38 CDT
+## Run end time: 2018-07-13 11:21:45 CDT
 ## Error message from this run: NA
 ## 
 ## [used]: 1 items used by this run
@@ -640,15 +642,15 @@ if(length(progFiles) &gt; 0) {
 ## [generated]: 2 items generated by this run
 ## -----------------------------------------
 ## Location                                                     Size (kb)    Modified time      
-## /Users/eunjungpark/Documents...obPkg/new_mtcars_gathered.csv 5401         2018-07-13 10:18:17
-## /Users/eunjungpark/Documents...lProv/bobPkg/new_mtcars_g.png 79800        2018-07-13 10:11:07
+## /Users/eunjungpark/Documents...obPkg/new_mtcars_gathered.csv 5401         2018-07-13 11:21:44
+## /Users/eunjungpark/Documents...lProv/bobPkg/new_mtcars_g.png 79800        2018-07-13 10:18:18
 ## Members:
 ## 
 ## filename        format    mediaType  size     identifier    modified local 
-## meta.xml        eml...1.1 NA         4273     urn:u...aeaeb y        y     
-## new_mt..._g.png image/png NA         79800    urn:u...5f068 n        y     
-## new_mt...ed.csv text/csv  NA         5401     urn:u...74c5d n        y     
-## new_analysis.R  app...eam NA         376      urn:u...aa940 n        y     
+## new_mt..._g.png image/png NA         79800    urn:u...6fb64 n        y     
+## meta.xml        eml...1.1 NA         4273     urn:u...11bdb y        y     
+## new_mt...ed.csv text/csv  NA         5401     urn:u...9591c n        y     
+## new_analysis.R  app...eam NA         376      urn:u...ba0ab n        y     
 ## 
 ## Package identifier: NA
 ## RightsHolder: NA
@@ -657,8 +659,8 @@ if(length(progFiles) &gt; 0) {
 ## Relationships (updated):
 ## 
 ##                  subject             predicate                object
-## 14 _86dd5754...5374298d3              rdf:type      prov:Association
-## 13 _86dd5754...5374298d3          prov:hadPlan        new_analysis.R
+## 14 _7bc084cb...02d9510ff              rdf:type      prov:Association
+## 13 _7bc084cb...02d9510ff          prov:hadPlan        new_analysis.R
 ## 3               meta.xml        cito:documents      new_mtcars_g.png
 ## 5               meta.xml        cito:documents new_mtcar...hered.csv
 ## 1               meta.xml        cito:documents        new_analysis.R
@@ -669,18 +671,18 @@ if(length(progFiles) &gt; 0) {
 ## 9  new_mtcar...hered.csv              rdf:type          provone:Data
 ## 22 new_mtcar...hered.csv   prov:wasDerivedFrom            mtcars.csv
 ## 21 new_mtcar...hered.csv   prov:wasDerivedFrom resource_...c62d8d439
-## 19 new_mtcar...hered.csv   prov:wasGeneratedBy urn:uuid:...99e85833f
+## 19 new_mtcar...hered.csv   prov:wasGeneratedBy urn:uuid:...7c39d38f7
 ## 4       new_mtcars_g.png   cito:isDocumentedBy              meta.xml
 ## 10      new_mtcars_g.png              rdf:type          provone:Data
 ## 24      new_mtcars_g.png   prov:wasDerivedFrom            mtcars.csv
 ## 23      new_mtcars_g.png   prov:wasDerivedFrom resource_...c62d8d439
-## 20      new_mtcars_g.png   prov:wasGeneratedBy urn:uuid:...99e85833f
+## 20      new_mtcars_g.png   prov:wasGeneratedBy urn:uuid:...7c39d38f7
 ## 7  resource_...c62d8d439              rdf:type          provone:Data
-## 16 urn:uuid:...99e85833f    dcterms:identifier urn:uuid:...99e85833f
-## 12 urn:uuid:...99e85833f              rdf:type     provone:Execution
-## 11 urn:uuid:...99e85833f prov:qual...sociation _86dd5754...5374298d3
-## 18 urn:uuid:...99e85833f             prov:used            mtcars.csv
-## 17 urn:uuid:...99e85833f             prov:used resource_...c62d8d439</code></pre>
+## 16 urn:uuid:...7c39d38f7    dcterms:identifier urn:uuid:...7c39d38f7
+## 12 urn:uuid:...7c39d38f7              rdf:type     provone:Execution
+## 11 urn:uuid:...7c39d38f7 prov:qual...sociation _7bc084cb...02d9510ff
+## 18 urn:uuid:...7c39d38f7             prov:used            mtcars.csv
+## 17 urn:uuid:...7c39d38f7             prov:used resource_...c62d8d439</code></pre>
 </div>
 </div>
 <div id="publish-package-to-dataone-test-node" class="section level3">
