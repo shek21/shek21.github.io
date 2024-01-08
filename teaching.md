@@ -1,6 +1,6 @@
 ---
 layout: page
-subtitle: Teaching
+title: Teaching
 ---
 
 ### Fall 2023
