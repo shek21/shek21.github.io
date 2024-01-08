@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Research
-subtitle: UCDBG Research Projects
+title: Research Projects
+# subtitle: UCDBG Research Projects
 ---
 
 
