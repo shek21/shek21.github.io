@@ -6,4 +6,4 @@ tags: [ml, provenance, explanations]
 author: Seokki Lee
 ---
 
-The paper is available at: https://ieeexplore.ieee.org/abstract/document/10148106
+The paper is available at: <a href="https://ieeexplore.ieee.org/abstract/document/10148106" target="_blank">https://ieeexplore.ieee.org/abstract/document/10148106</a>
