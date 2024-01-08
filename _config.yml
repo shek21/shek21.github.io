@@ -19,14 +19,13 @@ author: Seokki Lee
 # --- List of links in the navigation bar --- #
 ###############################################
 
-# navbar-links:
+navbar-links:
+  Research: "research"
 #   About Me: "aboutme"
 #   Resources:
 #     - Beautiful Jekyll: "https://beautifuljekyll.com"
 #     - Learn markdown: "https://www.markdowntutorial.com/"
 #   Author's home: "https://deanattali.com"
-
-Research: "research"
 # Publications:
 
 ################
