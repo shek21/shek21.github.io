@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A paper is accepted by TaPP
+title: A paper is accepted by ACM TaPP
 subtitle: Congrats to Sara!
 tags: [big provenance, sampling]
 author: Seokki Lee
