@@ -1,9 +1,9 @@
 ---
 layout: post
-title: A paper is accepted by IEEE ICDEW
-subtitle: Congrats to Nkechi and Justin!
-tags: [ml, provenance, explanations]
+title: A paper is accepted by TaPP
+subtitle: Congrats to Sara!
+tags: [big provenance, sampling]
 author: Seokki Lee
 ---
 
-The paper is available at: https://ieeexplore.ieee.org/abstract/document/10148106
+The paper is available at: https://dl.acm.org/doi/pdf/10.1145/3543873.3587556
