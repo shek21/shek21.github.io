@@ -12,11 +12,12 @@ I received my Ph.D. in Computer Science at Illinois Institute of Technology unde
 
 ### Contact Information
 - Office: Rhodes 885
-- Email: seokki.lee@uc.edu
+- Email: [seokki.lee@uc.edu](mailto:seokki.lee@uc.edu)
 - Phone: 513-556-5795
-- UC Homepage: https://researchdirectory.uc.edu/p/lee5sk
+- [UC Homepage](https://researchdirectory.uc.edu/p/lee5sk)
 
 
+<br/>
 
 ## Members
 
