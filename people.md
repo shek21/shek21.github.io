@@ -21,23 +21,23 @@ I received my Ph.D. in Computer Science at Illinois Institute of Technology unde
 
 ## Members
 
-#### Current Ph.D. Students
+### Current Ph.D. Students
 - N. Akwari (CSE) Explainable Machine Learning using Provenance 2022–present
 - S. Rawat (CSE) Exploring Provenance for Explainable Information Gain 2021–present
 
-#### Current Master Student Theses
+### Current Master Student Theses
 - A. Margi (MSCS) Efficiently Measuring Information Gain using Provenance 2023–present
 - S. Chouhan (MSCS) Efficiently Sampling Big Provenance 2023–present
 
-#### Current Undergraduate Student Projects
+### Current Undergraduate Student Projects
 - J. Turnau (CS) Explainable Machine Learning using Provenance 2022–present
 - B. Ju (CS) Hybrid Explanations and Repairs 2023–present
 
-#### Supervised Master Theses
+### Supervised Master Theses
 - S. Moshtaghi Largani (CSE) Provenance Summaries for Big Data 2021–2023
 - B. Su (CMPE) Hybrid Explanations 2021–2022
 
-#### Supervised Student Projects
+### Supervised Student Projects
 - B. Tyagi (MEng) Efficiently Measuring Information Gain using Provenance 2023
 - P. Amezcua (MEng/CCHMC) Effect of Hemostatic Proteins on Eczematic Microbiota in Mice 2021–2022
 - C. Lu (EE) Provenance Support for Aggregation 2021–2022
