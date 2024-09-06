@@ -3,6 +3,13 @@ layout: page
 title: Teaching
 ---
 
+### Fall 2024
+- Database Theory (CS5151/6051)
+
+### Spring 2024
+- Database Design and Development (CS4092)
+- Advanced Database Management (CS7071)
+
 ### Fall 2023
 - Database Theory (CS5151/6051)
 
